@@ -1,0 +1,12 @@
+{
+  "name": "Belajar Bersama — Petualangan Cerdas",
+  "short_name": "Belajar",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f8ff",
+  "theme_color": "#2f6df6",
+  "lang": "id",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
