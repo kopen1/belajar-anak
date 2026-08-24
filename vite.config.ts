@@ -12,6 +12,6 @@ export default defineConfig({
       { find: /^(react|react-dom)(?=$|\/)/, replacement: `${nm}/$1` },
     ],
   },
-  server: { port: 5173 },
+  server: { port: 5173, watch: { usePolling: true, interval: 300 } },
   build: { outDir: 'dist', sourcemap: false },
 });
